@@ -1,0 +1,135 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Promo Bar */
+.promo-bar {
+    background-color: #472b82; /* Dark purple */
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 14px;
+}
+
+.promo-link {
+    color: #b085f5;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.promo-link:hover {
+    text-decoration: underline;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #000000; /* Black */
+    padding: 10px 20px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-item {
+    color: #ffffff; /* White */
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.nav-item i {
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+.nav-item:hover {
+    color: #b085f5; /* Light purple */
+}
+
+/* Main Container */
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 10%;
+    background-color: #000000; /* Black background */
+    color: white;
+}
+
+/* Left Section */
+.text-section {
+    max-width: 50%;
+}
+
+.badge {
+    background-color: #b085f5;
+    color: white;
+    padding: 5px 10px;
+    font-size: 12px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.highlight {
+    color: #b085f5;
+}
+
+.trust-info {
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+    color: #b085f5;
+    margin: 10px 0;
+}
+
+.trust-info i {
+    margin-right: 10px;
+}
+
+.description {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #b085f5;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #9a70e3;
+}
+
+/* Right Section */
+.image-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.content1{
+    padding:4em 4em;
+    line-height: 30px;
+}
+.content1 h1{
+    color: black;
+    line-height: 50px;
+}
